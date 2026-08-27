@@ -1,0 +1,16 @@
+﻿
+#custom-hammer {
+  width: 44px;
+  height: 44px;
+  background-image: url('../img/thor-hammer.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+
+  transform-origin: center center;
+  transition: transform 0.05s ease-out;
+  transform: translate(-50%, -50%);
+}
